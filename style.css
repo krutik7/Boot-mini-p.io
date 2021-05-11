@@ -18,11 +18,11 @@ a {
 p {
   font-family: "Poppins", sans-serif;
 }
-button {
-  font-family: "Poppins", sans-serif;
-}
 h1 {
   font-family: "Montserrat", sans-serif;
+}
+.btn{
+  font-family: "Poppins", sans-serif;
 }
 /* ----------------------------------------------------------------------NAVIGATION-BAR------------------------------------------------------------------------ */
 
@@ -44,7 +44,8 @@ h1 {
 .nav-link:hover {
   color: #1abc9c;
 }
-.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
   color: #fff;
   background-color: #1abc9c;
 }
@@ -75,25 +76,28 @@ h1 {
   background-color: #2c3e50;
   width: 100%;
 }
-@media screen and (max-width:992px) {
-  .nav-pills .nav-li-1.active, .nav-pills .show>.nav-li-1 {
-    color: #fff!important;
-    background-color: #1abc9c!important;
-    max-width: 110px!important;
+@media screen and (max-width: 992px) {
+  .nav-pills .nav-li-1.active,
+  .nav-pills .show > .nav-li-1 {
+    color: #fff !important;
+    background-color: #1abc9c !important;
+    max-width: 110px !important;
     /* margin-top: 10px!important; */
-    padding-left: 6px!important;
+    padding-left: 6px !important;
   }
-  .nav-pills .nav-li-2.active, .nav-pills .show>.nav-li-2 {
-    color: #fff!important;
-    background-color: #1abc9c!important;
-    width: 80px!important;
-    padding-left: 10px!important;
+  .nav-pills .nav-li-2.active,
+  .nav-pills .show > .nav-li-2 {
+    color: #fff !important;
+    background-color: #1abc9c !important;
+    width: 80px !important;
+    padding-left: 10px !important;
   }
-  .nav-pills .nav-li-3.active, .nav-pills .show>.nav-li-3 {
-    color: #fff!important;
-    background-color: #1abc9c!important;
-    width: 100px!important;
-    padding-left: 10px!important;
+  .nav-pills .nav-li-3.active,
+  .nav-pills .show > .nav-li-3 {
+    color: #fff !important;
+    background-color: #1abc9c !important;
+    width: 100px !important;
+    padding-left: 10px !important;
   }
 }
 @media screen and (max-width: 770px) {
@@ -521,7 +525,7 @@ h1 {
     padding: 0px !important;
     margin: 5px !important;
   }
-  .foot-p{
+  .foot-p {
     font-size: 18px;
   }
 }
@@ -541,7 +545,7 @@ h1 {
   .foot-fa .btn {
     margin-top: 10px;
   }
-  .foot-p{
+  .foot-p {
     margin-top: 10px;
   }
 }
@@ -549,7 +553,7 @@ h1 {
   .footer {
     height: 390px;
   }
-  .foot-h1{
+  .foot-h1 {
     font-size: 24px;
   }
   .foot-p {
@@ -560,10 +564,13 @@ h1 {
     border: 2px solid white;
     color: white;
     border-radius: 50%;
-    width: 40px;
-    height: 39px;
-    font-size: 13px;
+    width: 43px;
+    height: 41px;
+    font-size: 16px;
     margin-top: 15px;
+  }
+  .fa-futbol-o{
+    padding: 0px 10px 0px 0px;
   }
   .col-lg-4-1 {
     padding: 5px !important;
